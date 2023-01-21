@@ -1,0 +1,40 @@
+body{
+    background-color: #202124;
+}
+.GoogleHeading{
+    color: #FFFFFF;
+    font-size: 7rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+/* to change the color of the elemnts of the navbar */
+.navbar-nav .nav-item .nav-link{
+    color: #FFFFFF;
+    font-size: 0.9rem;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+.navbar{
+    margin-left: 83%;
+}
+/* to remove the arrow of the dropdown menu */
+.dropdown-toggle::after {
+    content: none;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.input-group{
+    width: 30%;
+   margin: auto;
+   margin-top: 5%;
+}
+.input-group-text{
+    background-color:#202124;
+}
+.input-group .form-control{
+    background-color:#202124;   
+}
